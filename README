@@ -1,14 +1,15 @@
 
-Welcome to CRISPRDirection [version 1.0]. 
-	CRISPRDirection_v1.pl program requires a Unix based operating system. It should run without any error in both Linux (Red hat 5, Fedora-14) and Mac OS (Version-10.6.8). 
+Welcome to CRISPRDirection [version 2.0].
+---------------------
+	CRISPRDirection_v2.0.pl program requires a Unix based operating system. It should run without any error in both Linux (Red hat 5, Fedora-14) and Mac OS (Version-10.6.8). 
 	However, Mac OS users should check the 'RNAfold' [comes with vienna RNA package], 'seqret' and 'water' [comes with Emboss-tools] installation.
 	Simply issue the command to see if the program is running from the current directory:
 
-	perl CRISPRDirection_v1.0.pl -h
+	perl CRISPRDirection_v2.0.pl -h
 
 
-#------------------------------------------------------------- Important --------------------------------------------------------------------------
-Note:
+Important Note:
+---------------------
 	If you already have 'RNAfold', 'seqret', and 'water' installed and accessible, then you probably don't need anything else. Alternately, 
 	You need to have Emboss tools (version 6.3.1 or higher) and Vienna RNA package (version 2.0.7 or higher) installed. The 'other_executables' 
 	folder contains the executables of RNAfold, water and seqret but they may not work with your version of Linux. Check each of them by the 
@@ -24,28 +25,28 @@ Note:
 	solve the issue. Alternately, export the 'other_executables' folder to your path will also work. To know how to export a directory refer
 	this http://www.troubleshooters.com/linux/prepostpath.htm
 
-#-----------------------------------------------------------------------------------------------------------------------------------------------
-  
 
 1. How to use the program:
+---------------------
 	* Open a terminal and move to this folder. Then issue a command from the terminal like this:
 		
-		perl CRISPRDirection_v1.0.pl -r test_repeats.fa -o output.txt
+		perl CRISPRDirection_v2.0.pl -r test_repeats.fa -o output.txt
  		
 		or
 		
-		perl CRISPRDirection_v1.0.pl -f test.fa
+		perl CRISPRDirection_v2.0.pl -f test.fa
 
 		or
 		
-		perl CRISPRDirection_v1.0.pl -g NC_017625.gbk
+		perl CRISPRDirection_v2.0.pl -g NC_017625.gbk
 
 
 	* For mode detailed help with the options run:		
 		
-		perl CRISPRDirection_v1.0.pl -h
+		perl CRISPRDirection_v2.0.pl -h
 
 2. Dependencies:
+---------------------
 	* You must have a working perl installation (comes with pre-installed in most operating system except Windows).
 
 	* RNAfold: RNAfold comes with Vienna RNA package and is required (http://www.tbi.univie.ac.at/RNA/) for method 
@@ -69,6 +70,7 @@ Note:
 
 
 3. Folders in this directory:
+---------------------
 	* Supplement: The Supplement folder contains files that were used in the CRISPRDirection analysis. These files are for researchers 
 	  who might be interrested in doing detail analysis of the individual methods. The CRISPRDirection program does not require the files.
 	
@@ -80,7 +82,8 @@ Note:
 	* pilercr1.06: contains PILER-CR executable and other related files.
 
 
-4. Files apart from CRISPRDirection_v1.0.pl and README: 
+4. Files apart from CRISPRDirection_v2.0.pl and README: 
+---------------------
 	* Third party executables:  RNAfold, seqret, water and CRT1.2-CLI.jar
 	
 	*  test.fa : Test genomic sequence in fasta format.
