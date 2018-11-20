@@ -1,0 +1,56 @@
+>NC_017625-Escherichia coli DH1 chromosome, complete genome.
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                               Spacer
+==========  ======  ======  ======  ==========    =============================    ======
+   1005300      29   100.0      32  NNNNNNNNNN    .............................    CTTTCGCAGACGCGCGGCGATACGCTCACGCA           
+   1005361      29   100.0      32  NNNNNNNNNN    .............................    CAGCCGAAGCCAAAGGTGATGCCGAACACGCT           
+   1005422      29   100.0      32  NNNNNNNNNN    .............................    GGCTCCCTGTCGGTTGTAATTGATAATGTTGA           
+   1005483      29   100.0      33  NNNNNNNNNN    .............................    TTTGGATCGGGTCTGGAATTTCTGAGCGGTCGC           
+   1005545      29   100.0      33  NNNNNNNNNN    .............................    CGAATCGCGCATACCCTGCGCGTCGCCGCCTGC           
+   1005607      29   100.0      32  NNNNNNNNNN    .............................    TCAGCTTTATAAATCCGGAGATACGGAAACTA           
+   1005668      29   100.0      32  NNNNNNNNNN    .............................    GACTCACCCCGAAAGAGATTGCCAGCCAGCTT           
+   1005729      29   100.0      32  NNNNNNNNNN    .............................    CTGCTGGAGCTGGCTGCAAGGCAAGCCGCCCA           
+   1005790      29   100.0      32  NNNNNNNNNN    .............................    GGGGGCGCATGACCGTAAACATTATCCCCCGG           
+   1005851      29   100.0      32  NNNNNNNNNN    .............................    GGAGTTCAGACATAGGTGGAATGATGGACTAC           
+   1005912      29   100.0      32  NNNNNNNNNN    ............TT...............    CCCGGTAGCCAGGTTTGCAACGCCTGAACCGA           
+   1005973      29   100.0      32  NNNNNNNNNN    .................A...........    GCAACGACGGTGAGATTTCACGCCTGACGCTG           
+   1006034      29   100.0       0  NNNNNNNNNN    .T.........AT................    NNNNNNNNNN
+==========  ======  ======  ======  ==========    =============================
+        13      29              32                GAGTTCCCCGCGCCAGCGGGGATAAACCG
+
+# Directional analysis summary from each method: 
+# Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# A,T distribution in repeat prediction:     F [6,3] Score: 0.37/0.37
+# Reference repeat match prediction:         F [matched GAGTTCCCCGCGCCAGCGGGGATAAACCG with 100% identity] Score: 0.5/0.5
+# Secondary structural analysis prediction:  F [-13.40,-12.50] Score: 0.37/0.37
+# Array degeneracy analysis prediction:      F [0-6] Score: 0.41/0.41
+# AT richness analysis in flanks prediction: F [70.0-41.7]%AT Score: 0.27/0.27
+# Longer leader analysis prediction:         NA [107,84] Score: 0/0.18
+# 
+# Final direction:         F [1.92,0   Confidence: HIGH] 
+
+>NC_017625-Escherichia coli DH1 chromosome, complete genome.
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                          Spacer
+==========  ======  ======  ======  ==========    ============================    ======
+    979356      28   100.0      33  TATGTTTAGA    ............................    GGCAAAAACCGGGCAATCGCAAAAAGGCGTAAT
+    979417      28   100.0      33  AAGGCGTAAT    ............................    TGTGTTTGCGGCATTAACGCTCACCAGCATTTC
+    979478      28   100.0      33  CCAGCATTTC    ............................    GACGTGGTCATGGGTGCTGCTGTTGCAGAGCCA
+    979539      28   100.0      33  TGCAGAGCCA    ............................    GAGCAGATACACGGCTTTGTATTCCGTGCGCCC
+    979600      28   100.0      33  CCGTGCGCCC    ............................    GAATAGCAATAGTCCATAGATTTGCGAAAACAG
+    979661      28   100.0      33  GCGAAAACAG    ............................    GGAGCCTGACGAGACTACTGAGGCCGTTCTGTC
+    979722      28    96.4          CCGTTCTGTC    .A..........................    ACCATATAAC
+==========  ======  ======  ======  ==========    ============================
+         7      28              33                GTGTTCCCCGCGCCAGCGGGGATAAACC
+
+# Directional analysis summary from each method: 
+# Motif ATTGAAA(N) match prediction:         NA Score: 0/4.5
+# A,T distribution in repeat prediction:     F [5,4] Score: 0.37/0.37
+# Reference repeat match prediction:         F [matched GTGTTCCCCGCGCCAGCGGGGATAAACCG with 96% identity] Score: 0.5/0.5
+# Secondary structural analysis prediction:  F [-13.40,-12.50] Score: 0.37/0.37
+# Array degeneracy analysis prediction:      F [0-1] Score: 0.41/0.41
+# AT richness analysis in flanks prediction: NA [75.0-68.3]%AT Score: 0/0.27
+# Longer leader analysis prediction:         NA [341,641] Score: 0/0.18
+# 
+# Final direction:         F [1.65,0   Confidence: HIGH] 
+
